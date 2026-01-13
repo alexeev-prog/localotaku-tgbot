@@ -1,0 +1,23 @@
+[project]
+name = "localotaku-tgbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Alexeev Bronislav", email = "alexeev.dev@mail.ru" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "aiogram>=3.24.0",
+    "asyncio>=4.0.0",
+    "loguru>=0.7.3",
+    "rich>=14.2.0",
+    "toml>=0.10.2",
+]
+
+[project.scripts]
+localotaku-tgbot = "localotaku_tgbot:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
