@@ -113,10 +113,10 @@ class ConfigLoaderFactory:
 
 
 class ConfigurationManager:
-    def __init__(self, config_path: Optional[Path] = None):
-        self.config_path = config_path or Path("lotgbot_cfg.toml")
+    def __init__(self, config_path: Optional[Path] = "lotgbot_cfg.toml"):
+        self.config_path = config_path
         self._loader = ConfigLoaderFactory.create_loader(self.config_path)
-        self._config: Optional[Configuration] = None
+        self._config: Configuration = self._load_configuration()
 
     @property
     def config(self) -> Configuration:
