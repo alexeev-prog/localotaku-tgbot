@@ -1,0 +1,14 @@
+TOKEN = "your_bot_token_here"
+ADMINS_IDS = [123456789, 987654321]
+TG_BOT_USERNAME = "my_bot"
+debug = true
+log_level = "DEBUG"
+
+[database]
+host = "localhost"
+port = 5432
+username = "postgres"
+password = "secret_password"
+database_name = "bot_database"
+pool_size = 15
+echo = true

@@ -11,8 +11,11 @@ dependencies = [
     "aiogram>=3.24.0",
     "asyncio>=4.0.0",
     "loguru>=0.7.3",
+    "pydantic>=2.12.5",
     "rich>=14.2.0",
     "toml>=0.10.2",
+    "tomli>=2.4.0",
+    "tomli-w>=1.2.0",
 ]
 
 [project.scripts]
