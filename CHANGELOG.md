@@ -1,3 +1,9 @@
+commit 04d68c69dd315fa336d8fe87adca636a05247668
+Author: Alexeev Bronislav <alexeev.dev@mail.ru>
+Date:   Tue Jan 13 23:13:57 2026 +0700
+
+    update config, add loader and utils
+
 commit d1e2169e5c6c8437d132a29f7092282545fc3065
 Author: Alexeev Bronislav <alexeev.dev@mail.ru>
 Date:   Tue Jan 13 22:52:03 2026 +0700

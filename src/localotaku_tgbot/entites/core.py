@@ -19,6 +19,15 @@ class AnimeStudio:
     name: str
 
 
+
+@dataclass
+class AnimeSerie:
+    id: int
+    title: str
+    description: str
+    links: list[str]
+
+
 @dataclass
 class Anime:
     id: int
@@ -35,6 +44,7 @@ class Anime:
     genres: list[Genre]
     studios: list[AnimeStudio]
     manga_authors: list[OriginalMangaAuthor]
+    series: list[AnimeSerie]
     year: int | None
     season: str | None
 
